@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="top">
+          <div class="top-left">
+            <h1>FX</h1>
+            <div id="forex">
+              <label for="forex-select">Choose Base currency:</label>
+              <select id="forex--base">
+                <option value="">----</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="GBP">GBP</option>
+                <option value="KRW">KRW</option>
+                <option value="AED">AED</option>
+              </select>
+              <label for="forex-select">Choose Quote currency:</label>
+              <select id="forex--quote">
+                <option value="">----</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="GBP">GBP</option>
+                <option value="KRW">KRW</option>
+                <option value="AED">AED</option>
+              </select>
+            </div>
+          </div>
+          <div class="top-right">
+            <h1>Crypto</h1>
+            <div id="crypto">
+              <div id="crypto-top"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <h1 id="time" class="time">TIME HERE</h1>
+          <a href="https://www.exchangerate-api.com">
+            Rates By Exchange Rate API</a>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
